@@ -1,11 +1,11 @@
 # az-system — Hệ thống AI agent code ứng dụng
 
-1 orchestrator + 14 agent, 83 skill.
+1 orchestrator + 14 agent, 83 skill + lệnh khởi động `/saz-orchestrator`.
 
 ## Cài đặt (Claude Code)
 1. Chép thư mục `.claude/` và file `CLAUDE.md` vào thư mục gốc dự án.
 2. Thêm `.az/` vào `.gitignore` nếu không muốn commit file trao đổi giữa agent.
-3. Mở Claude Code tại thư mục dự án và giao việc bình thường, ví dụ:
+3. Mở Claude Code tại thư mục dự án, gõ `/saz-orchestrator <việc cần làm>` (gõ `/saz-orchestrator` trống để xem gợi ý), hoặc giao việc bình thường, ví dụ:
    - "Tạo ứng dụng ... " → Luồng A
    - "Fix lỗi ... trong app này" → Luồng B
 
