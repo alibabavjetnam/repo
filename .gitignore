@@ -1,0 +1,11 @@
+# Thu muc trao doi giua cac agent (chua ban do code, bao cao loi, log)
+.az/
+
+# Bien moi truong va secret
+.env
+.env.*
+!.env.example
+
+# He thong
+.DS_Store
+Thumbs.db
